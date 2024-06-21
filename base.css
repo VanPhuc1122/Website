@@ -1,0 +1,19 @@
+/* Khai báo màu tổng quát */
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #7b7575;
+    --primary-color: #ee4d2d;
+    --boder-color: #dbdbdb;
+}
+*{
+    /* Inherit kế thừa từ thẻ */
+    box-sizing: inherit;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
